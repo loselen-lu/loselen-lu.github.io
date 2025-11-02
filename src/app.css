@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@import '@fontsource-variable/jetbrains-mono';
+@import '@fontsource/kaushan-script';
+@import '@fontsource/poppins';
+body {
+	font-family: 'JetBrains Mono Variable', monospace;
+}
+.kaushan {
+	font-family: 'Kaushan Script', cursive;
+}
+.poppins {
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	overflow-x: hidden;
+	scroll-snap-type: y mandatory;
+}
