@@ -1,12 +1,11 @@
 <script lang="ts">
 	import { gsap } from 'gsap';
-	import { ScrollTrigger } from 'gsap/ScrollTrigger';
+	import ScrollTrigger from 'gsap/ScrollTrigger';
 	import { TextPlugin } from 'gsap/TextPlugin';
 	import { onMount } from 'svelte';
 	import arrowDown from '$lib/assets/arrow-down.svg';
 	import svelteLogo from '$lib/assets/svelte-logo.svg';
 	import tailwindLogo from '$lib/assets/tailwindcss-logo.svg';
-	import { scale } from 'svelte/transition';
 
 	gsap.registerPlugin(ScrollTrigger);
 	gsap.registerPlugin(TextPlugin);
